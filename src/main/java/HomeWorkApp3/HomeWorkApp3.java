@@ -12,7 +12,6 @@ public class HomeWorkApp3 {
         fillDiagonalOne();
         int i = initialValueLength(5, 10);
         System.out.println(i);
-        minMaxValue();
     }
 
     public static void swapOneZero() {
@@ -64,13 +63,4 @@ public class HomeWorkApp3 {
         Arrays.fill(a, initialValue);
         return a[0];
     }
-
-    public static void minMaxValue() {
-        int[] a = {10, 20, 30, 60};
-        int max = Arrays.stream(a).max().getAsInt();
-        int min = Arrays.stream(a).min().getAsInt();
-        System.out.println("Max = " + max + "; Min = " + min);
-    }
-
-
 }
